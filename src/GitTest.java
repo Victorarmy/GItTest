@@ -13,17 +13,12 @@ public class GitTest {
         list.add(4);
         list.add(5);
 
-
-        Iterator<Integer> iterator = list.iterator();
-
-        while (iterator.hasNext()) {
-            Integer i = iterator.next();
-
+        list.forEach((i) -> {
             if (i.equals(1)) {
                 System.out.println("1 found");
             } else {
                 System.out.println("found" + i);
             }
-        }
+        });
     }
 }
