@@ -37,5 +37,7 @@ public class GitTest {
         System.out.println("Seventh feature");
 
         System.out.println("Nineth feature");
+
+        System.out.println("Pisze cos z developa");
     }
 }
