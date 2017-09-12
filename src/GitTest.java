@@ -16,7 +16,7 @@ public class GitTest {
 
         for (Integer i : list) {
             if (i.equals(1)) {
-                int x = i * 8 + 1;
+                int x = i * 8 + 5;
                 System.out.println(x + "found");
             } else {
                 int a = i + 2; 
@@ -35,5 +35,7 @@ public class GitTest {
         System.out.println("Sixth feature");
         
         System.out.println("Seventh feature");
+        
+        System.out.println("Nineth feature");
     }
 }
