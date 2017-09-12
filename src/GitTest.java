@@ -12,11 +12,12 @@ public class GitTest {
         list.add(3);
         list.add(4);
         list.add(5);
+        list.add(6);
 
-        for (Integer i :
-                list) {
+        for (Integer i : list) {
             if (i.equals(1)) {
-                System.out.println("1 found");
+                int x = i * 8 + 1;
+                System.out.println(x + "found");
             } else {
                 System.out.println("found" + i);
             }
