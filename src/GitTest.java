@@ -13,6 +13,7 @@ public class GitTest {
         list.add(4);
         list.add(5);
         list.add(6);
+        list.add(7);
 
         for (Integer i : list) {
             if (i.equals(1)) {
@@ -39,5 +40,8 @@ public class GitTest {
         System.out.println("Nineth feature");
 
         System.out.println("Pisze cos z developa");
+
+        System.out.println("Tenth feature");
+
     }
 }
