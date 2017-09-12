@@ -13,9 +13,6 @@ public class GitTest {
         list.add(4);
         list.add(5);
 
-
-        Iterator<Integer> iterator = list.iterator();
-
         for (Integer i :
                 list) {
             if (i.equals(1)) {
