@@ -18,7 +18,8 @@ public class GitTest {
             if (i.equals(1)) {
                 System.out.println("1 found");
             } else {
-                System.out.println("found" + i);
+                int a = i + 2; 
+                System.out.println("found" + a);
             }
         }
 
@@ -31,5 +32,7 @@ public class GitTest {
         System.out.println("Fifth feature");
 
         System.out.println("Sixth feature");
+        
+        System.out.println("Seventh feature");
     }
 }
