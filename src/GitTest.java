@@ -27,5 +27,7 @@ public class GitTest {
         }
 
         System.out.println("Second feature");
+
+        System.out.println("Third feature");
     }
 }
