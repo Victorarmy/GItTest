@@ -25,5 +25,7 @@ public class GitTest {
                 System.out.println("found" + i);
             }
         }
+
+        System.out.println("Second feature");
     }
 }
