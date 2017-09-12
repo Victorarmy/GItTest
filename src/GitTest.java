@@ -16,9 +16,8 @@ public class GitTest {
 
         Iterator<Integer> iterator = list.iterator();
 
-        while (iterator.hasNext()) {
-            Integer i = iterator.next();
-
+        for (Integer i :
+                list) {
             if (i.equals(1)) {
                 System.out.println("1 found");
             } else {
